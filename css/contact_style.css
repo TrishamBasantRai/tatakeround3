@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+	background: linear-gradient(to right, #8C6338, #F3AC50);
+    font-family: 'Poppins';
+    font-size: 1em;
+    display: grid;
+    place-items: center;
+    min-height: 100%;
+}
+
+.container {
+    position: absolute;
+    background-color: white;
+    padding: 3em 6em;
+    border-radius: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding: 1em 0 0 0;
+	font-size: 1em;
+	font-weight: 100;
+	line-height: 1.25em;
+	letter-spacing: 0.03em;
+}
+
+h1 {
+    font-size: 2.5em;
+	font-weight: bold;
+}
+
+.form-header {
+    margin-bottom: 0.25em;
+}
+
+input,
+textarea {
+    margin-top: 0.5em;
+    background-color: #eee;
+	border-radius: 0.4em;
+	border: none;
+    width: 20em;
+    padding: 0.5em;
+}
+
+select {
+    padding: .5em;
+    margin: .25em 0;
+    border-radius: 0.4em;
+}
+
+button {
+    border-radius: 1.5em;
+    border: 2px solid #8C6338;
+	background-color: #8C6338;
+    color: #FFFFFF;
+	font-size: 0.75em;
+	font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.75em 0;
+    margin: 2.5em 6em 0.5em 6em;
+    transition: background-color .15s ease-in;
+}
+
+button:hover {
+    background-color: white;
+    color: #8C6338;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+@media (max-width: 550px) {
+    body {
+        background: none;
+        display: flex;
+    }
+    .container {
+        border-radius: none;
+
+    }
+}

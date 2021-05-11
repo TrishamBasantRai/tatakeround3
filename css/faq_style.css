@@ -1,0 +1,76 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #FFC9C9;
+	font-family: 'Poppins';
+}
+
+.FAQHeading{
+	background-color:#8C6338;
+	width: 80vh;
+	margin: auto;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	text-align: center;
+	border-radius: 40px;
+	margin-top: 5vh;
+}
+
+.questions1{
+	width: 150vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-auto-flow:column;
+	gap: 10vh;
+	margin: auto;
+}
+
+.container1, .container2, .container3, .container4, .container5{
+	border-radius: 2vh;
+	background-color: #f4f4f4;
+	width: 50vh;
+	height: 50vh;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	box-shadow: 10px 5px 15px rgba(0,0,0,0.2);
+	backdrop-filter: blur(10px);
+	cursor: pointer;
+}
+
+.container1:hover, .container2:hover, .container3:hover, .container4:hover, .container5:hover{
+	background-color:#f4f4f490;
+	-webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.questions2{
+	width: 150vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-auto-flow:column;
+	margin: auto;
+}
+
+.ques{
+	text-align:center;
+	width: 40vh;
+}
+
+.ans1, .ans2, .ans3, .ans4, .ans5{
+	border-radius: 5px;
+	width: 20vh;
+	text-align:center;
+	margin: auto;
+	margin-top: 10vh;
+	color: #8C6338;
+}
